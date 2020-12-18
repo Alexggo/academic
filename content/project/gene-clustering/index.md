@@ -1,43 +1,65 @@
 ---
-title: "Evolution in the Lab: How does selection affect antibiotic resistance depending on cellular location?" 
-summary: "A case study comparing echinocandin and azole resistance evolution in Saccharomyces cerevisiae."
-tags:
-- Experimental Evolution
-date: "2016-04-27T00:00:00Z"
-
-# Optional external URL for project (replaces project detail page).
-external_link: ""
-
-image:
-  caption: Comparison of inhibitory diameters between resistant and non-resistant strains.
-  focal_point: Smart
-
-links:
-#- icon: twitter
-#  icon_pack: fab
-#  name: Follow
-#  url: 
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
+draft: true
 slides: ""
+url_pdf: ""
+title: Are biosynthetic gene clusters in prokaryotes a result of selection on
+  HGT of co-adapted genes?
+subtitle: "Hypothesis: the presence of biosynthetic gene clusters (BGC) in
+  bacterial genomes is explained by the Selfish Operon Model, which suggests
+  that coinheritance of antibiotic biosynthesis and antibiotic resistance genes
+  has a selective advantage over their independent transmission. This would
+  result in a higher efficiency of HGT of BGCs with resistance and transport
+  genes over non-clustered genes."
+date: 2020-12-18T04:44:57.596Z
+summary: ""
+url_video: ""
+featured: true
+external_link: antibiotic_biosynthesis
+url_slides: ""
+tags:
+  - Antibiotic Biosynthesis
+  - Genome Evolution
+  - Phylogenetic Reconciliation
+links: null
+image:
+  caption: Biosynthetic Gene Clusters differ in their structure between species.
+  focal_point: Smart
+  filename: featured.png
+  preview_only: true
+url_code: ""
 ---
+Genome evolution is a result of processes such as mutation, recombination, horizontal gene transfer, gene duplication and gene loss. Genome arrangement is not random, and many genes that participate in the same process are clustered together along the genome. This is the case for biosynthetic gene clusters, which are genomic sequences involved in the production of specific secondary metabolites such as natural antibiotics.
 
-Hypothesis: antifungal resistance arises faster for compounds that target intracellular targets than extracellular ones. These mechanisms involve compensatory pathways, aneuploidy, efflux pumps, stress response, overexpression of targets, etc. In contrast, antifungal resistance takes longer to arise for compounds that act extracellularly, and the evolution is limited to in-situ substitutions and extracellular proteins or compensatory extracellular processes. 
+## Why are genes organized into biosynthetic gene clusters?
 
-### Azole resistance evolves through several mechanisms including target upregulation, aneuploidies, compensatory pathways, efflux pumps, and stress response.
-Azole resistance arises through several mechanisms such as aneuploidies, upregulation of target, compensatory pathways of ergosterol biosynthesis, stress response, and efflux pump regulation (Andersson, 1999), including at least 13 amino acid substitutions in the target (Xiang, 2013). 
-### Echinocandin resistance is less common and is more limited to specific substitutions in three hotspots.
-In contrast, echinocandin resistance is less common than azole resistance in Candida spp (Perlin, 2007). Alternatively, evolution of echinocandin resistance is limited to in-situ modifications of the target FKS1 (Niimi, 2010). These substitutions are circumscribed to three hotspot regions in the protein that are located in the extracellular domain of the protein (Johnson, 2012). Subcellular location of the binding site of the drug might be the reason why efflux pumps aren’t a common mechanism for echinocandin resistance. 
-### Unsolved question: [a] Is echinocandin resistance less common because they were introduced more recently or is it due to its location?
-Moreover, echinocandins were introduced later in the treatment of fungal diseases than azoles, being this a possible explanation for the limited resistance found. In order to rule out this explanation, I will perform an experimental evolution experiment on a non-resistant strain of Saccharomyces cerevisiae.
-### Experimental evolution can elucidate this question and give us insights in the persistence of these changes.
-Evolution in the laboratory under specific conditions is used as a research tool to understand how populations adapt to environmental conditions, to study evolutionary trade-offs and constraints, to estimate population parameters, for long-term experiments, to test evolutionary theories and is a common technique in medicine and technology (Kawecki, 2012). Using experimental evolution in this context can be very useful to elucidate how resistance originates using different antifungals, how fast do these changes occur depending on the subcellular location of the target, and their resistance to evolutionary reversion. 
+Several models have been proposed to explain the origin of gene clusters in prokaryotes. Briefly, they are (1) the Natal Model (assumes that clusters are the result of in situ gene duplication), (2) the Molarity Model (suggests that clusterization allows for higher local concentrations of the different enzymes), (3) the Co Regulation Model (assumes that clusterization allows for genes to have common cotranscription mechanisms), and (4) the Selfish Operon Model (proposes that clusterization of genes have a selective advantage in their horizontal transmission among lineages via HGT) (Lawrence, 1999). Each of these models have been proposed for the origin of different gene clusters in prokaryotes and eukaryotes, however currently the most popular models for the origin of prokaryotic gene clusters are the Co Regulation Model and the Selfish Operon Model. In the following section I will discuss these two models and propose a test to evaluate the origin of biosynthetic gene clusters in antibiotic producing bacteria.
 
+The Selfish Operon Model assumes that the clustered organization of genes involved in the same function facilitates HGT of biological functions. In this model, clustered genes have a selective advantage over unclustered genes, because during a HGT event all genes involved in the same function would be co-inherited. The model considers that weakly selected genes can be lost due to mutation and drift when unflustered, but if these genes are part of operons the coinheritance of the entire cluster provides a selective advantage, being beneficial to the propagation of the genes themselves via HGT (Lawrence, 1999). This model has been applied to explain the origin of different gene clusters. For example, the phd/doc system in bacteriophage P1, encodes a toxin (Doc) and its antidote (Phd), and when the antidote gene is lost the accumulation of the toxin causes cell death. Thus, having both genes in the same operon allows for the co transfer of this system, and the transfer of these genes separately via HGT is ineffective (Lawrence, 1999). Additionally, the genes encoding Type II restriction/modification systems in bacteria is another example where the Selfish Operon Model is applied. In this system the presence of selfish entities in plasmid improves plasmid fitness. Loss of these entities can occur when they are present in the chromosome via endonuclease degradation. Although, it has been argued that the presence of these systems cannot be explained by the Selfish Operon Model alone, since the presence of individual genes can provide the host cell with a selective advantage. In summary, the Selfish Operon Model suggests that the presence of clusters in bacterial genomes occurs because it is less likely for the cell to lose different weakly selected genes, and allows for cells to inherit a biological function in a single HGT event (Lawrence, 1999).
+
+Some critics of this model suggest that it cannot provide a general explanation to gene clustering, because it assumes that most genes present in clusters are non-essential genes, and genomic data shows otherwise. It has been shown that essential genes with related functions are especially abundant in operons and they have a strong tendency to cluster even outside operons (Pal and Hurst, 2004). Another criticism of the Selfish Operon Model is that HGT rates of newly formed operons are the same as native genes, and that genes in newly formed operons are not more likely to have inconsistent phylogenetic trees than other genes (Price, 2005).
+
+An alternative model to explain gene clustering is the Co Regulatory Model, which suggests that gene clustering facilitates the coregulation of genes at the higher level of chromatin. Some evidence that supports this model is that in eukaryotes biosynthetic gene clusters are located in the subtelomeric regions and their expression is associated with H4 acetylation (Osbourn, 2010). This model can also be applied to some prokaryotes, such as Actinomycetes since this group contains many linear chromosomes and gene clusters are located in the chromosome arms. Additionally, it has been discovered that some prokaryotes like S. coelicolor contain histone-like proteins involved in the modulation of gene clusters (Osbourn, 2010).
+
+There is very little work on the validity of the Selfish Operon Model, and an explicit test on its validity in biosynthetic gene clusters has not been performed. The formation of biosynthetic gene clusters in bacterial genomes has not been properly explained in relation to these models. These gene clusters are involved in the production of natural antibiotics, which are typically produced by Actinomycetes like the Streptomyces. In this chapter, I propose to test what is the role of HGT in the formation of biosynthetic gene clusters (BGCs). If the formation of these clusters can be explained by the Selfish Operon Model, I would expect that BGCs with specific genes (such as biosynthetic, regulatory, resistance or transport genes) are transmitted at a higher rate via HGT, because they confer a selective advantage by incorporating the gene in the cluster. A previous study has shown that HGT genes are not particularly likely in operons (Price, 2005), however the observation of HGT in biosynthetic gene clusters provides an exception to this rule that deserves to be investigated. To test this hypothesis, I will perform phylogenetic reconciliation and ancestral reconstruction of different genes present in the BGCs, following the approach introduced by Waglechner (2019) for glycopeptide antibiotics. I expect to map the origin of different genes present in the clusters, as well as quantify the number of HGT events for different genes, domains and BGCs. The test I propose would consider the probability of transmission via HGT as a function of the completeness of the gene cluster, where a higher level of completeness would predict a higher probability of transfer via HGT. A special case for this test would consider the linkage of resistance/transporter genes within the clusters, where linking BGCs with their respective resistance mechanisms would increase the success of the transmission of antibiotic biosynthetic gene clusters to species that are not resistant. In conclusion, if the linkage of genes has a selective advantage, the transmission via HGT would be more effective according to the Selfish Operon Model. Alternatively, if my findings don’t support the Selfish Operon Model, we might assume that alternative models provide more explanatory power for the formation of biosynthetic gene clusters.
+
+## Why are biosynthetic gene clusters a good system to test this hypothesis?
+
+The transmission of BGCs and resistance genes via HGT in bacteria is well documented in the literature (Deng et al., 2011; Likoski et al., 2009; Schmitt et al., 2009). Although it is not well known whether this transmission has different rates depending on the different component genes present in the biosynthetic gene clusters. BGCs contain the biosynthesis pathway of natural antibiotics in many groups of bacteria, such as Streptomyces sp., which are responsible for the production of more than two thirds of natural antibiotics. Moreover, BGCs encode genes involved in the synthesis, regulation, transport and resistance of antibiotics. Although, not all BGCs contain resistance or transport genes (i.e. in cis), it is assumed that antibiotic producing bacteria are self-resistant, meaning that the resistance genes must be present somewhere else in the genome outside the BGC (i.e. in trans). Importantly, resistance genes are typically copies of the antibiotic target, and transport genes are efflux transporters that may also promote resistance. The incorporation of these genes into BGCs can facilitate their transmission via HGT, since a HGT event of a BGC would be unsuccessful if the receiving cell is not resistant to the antibiotic. For this reason, I expect to see higher levels of HGT for BGCs that encode resistance or transport genes.
+
+Antibiotic biosynthesis and resistance represent an evolutionary arms race between different microorganisms (Baltz, 2008). A rich literature supports the observation that exogenous resistance (i.e. to an antibiotic produced by another organism) gene forms evolve repeatedly and are spread horizontally (Gao et al., 2010; Karamanolis et al., 2014; Davies and Davies, 2010; Normack and Normack, 2002). If this is the case, then resistance genes may have also been secondarily acquired by antibiotic-producing organisms via HGT and co-opted for endogenous resistance as part of the ongoing arms race. Phylogenetic reconciliation of resistance and biosynthetic genes would yield estimates for the origins of different biosynthetic and resistance genes, as well as for HGT events.
+
+Phylogenetic reconciliation was applied to glycopeptide antibiotics by Waglechner et al. (2019). In this analysis, resistant genes present in BGCs of glycopeptides were dated to 140-404 mya (i.e. 140mya for VanA and 404mya for VanH/X). These dating estimates are relatively more recent than those for biosynthetic genes in the same clusters (300-500mya). HGT of genes and BGCs was also detected as a result of this analysis, although no formal test was implemented to compare between different types of BGCs. Several methods have been developed to quantify HGT events given a phylogenetic tree, by considering the number of incongruences in the tree (Avni and Snir, 2020; Adato et al., 2015). I will apply these methods to quantify the test of the rate of HGT in BGCs of two classes of natural antibiotics, the aminocoumarins and aminoglycosides.
+
+## What are the advantages of aminocoumarin and aminoglycoside antibiotics to address the hypothesis?
+
+There are several characteristics that make aminocoumarin and aminoglycoside antibiotics good systems to evaluate this hypothesis. Both classes of antibiotics have several known natural antibiotics synthesized by several biosynthetic gene clusters in Streptomyces and other species. These compounds contain chemically complex motifs that are exclusively found within each class of compounds, limiting the number of times biosynthesis may have evolved independently. Importantly, the function of the genes that are part of the gene clusters is known, this means that we know what role each gene plays in the biosynthetic pathway of these antibiotic classes as well as antibiotic resistance, transport and regulation. Finally, the mode of action of these classes of antibiotics is known, and both classes of antibiotics bind to specific molecular targets. Specifically, aminocoumarins bind topoisomerase IV and gyrase B, while aminoglycosides bind proteins in the 30S ribosomal subunit. Taken together, aminocoumarins and aminoglycosides are a good system to study natural antibiotic biosynthesis, where phylogenetic dating of antibiotic biosynthesis and resistance has the potential to be performed.
+
+## Some background on aminocoumarin antibiotics.
+
+Aminocoumarin antibiotics target bacterial topoisomerases such as gyrase B and topoisomerase IV. These enzymes are involved in the unwinding of the supercoiled DNA molecule, and their inhibition affects DNA replication. The “classical aminocoumarins” are novobiocin, clorobiocin and coumermycin A1, and they were identified in Streptomyces sp., which contain biosynthetic gene clusters encoding the genes novHIJK, responsible for the synthesis of a unique moiety only found in these organic compounds. The BGC contain other gene sequences clustered in well-defined regions involved in the chemical modification of the compounds, such as the production of a prenylated moiety (i.e. novQR) and the synthesis of a deoxysugar (i.e. novSTUVW). Importantly, genes involved in antibiotic resistance are also sometimes encoded in the cluster and sometimes outside the cluster. These genes include the antibiotic resistance genes (i.e. GyrB(r) and parY(r)), and transporter genes (i.e. sim X/R and rubT1) (Heide, 2006). In addition to Streptomyces, BGC of aminocoumarins are found in Micromonospora, Pseudoalteromonas, and Nocardia, among others.
+
+## Some background on aminoglycoside antibiotics.
+
+Aminoglycoside antibiotics inhibit protein synthesis by binding the A-site in the 30S ribosomal subunit. Specifically, this binding occurs in a region of 16S rRNA, provoking structural rearrangements of the decoding site in the ribosome, and affecting proofreading and translocation (Francois et al., 2005). The biosynthetic genes of natural aminoglycosides like neomycin are found in a biosynthetic cluster, and include neoC, neoS, neoE, neoM, neoD, neoQ and neoB (Kudo and Eguchi, 2009). Resistance genes neoT and neoU are involved in the transport and resistance to aminoglycosides, and are sometimes found within the cluster, and sometimes encoded outside of the cluster.
+
+Aminoglycosides include several natural antibiotics such as amicetin, kanamycin, streptomycin, tobramycin, gentamicin and sisomicin. These compounds share a similar structure with a core aminocyclitol moiety named 2-deoxystreptamine. The natural synthesis of aminoglycosides is carried out by Streptomyces sp., as well as other species from the genuses Streptoalloteichus, Micromonospora, Bacillus and Frankia. Aminoglycosides are used against aerobic gram-negative bacilli, such as Escherichia coli, Klebsiella, Pseudomonas or Mycobacteria tuberculosis. Gram negative bacteria cell walls in these species contain membrane transporters suitable for aminoglycoside transport into the cytoplasm where the aminoglycosides exert their inhibitory effect.
