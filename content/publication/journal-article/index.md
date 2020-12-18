@@ -5,8 +5,8 @@ authors:
 - Maria Reguera
 - Carlos Manuel Conesa
 - admin
-date: "2015-09-01T00:00:00Z"
-doi: ""
+date: "2018-03-14T00:00:00Z"
+doi: "https://doi.org/10.7717/peerj.4442"
 featured: false
 image:
   caption: 'Image credit: Maria Reguera'
@@ -25,7 +25,7 @@ tags:
 title: The impact of different agroecological conditions on the nutritional composition of quinoa seeds
 url_code: https://github.com/Alexggo/quinoa_2018
 url_dataset: https://github.com/Alexggo/quinoa_2018/tree/master/data
-url_pdf: peerj.com/articles/4442/
+url_pdf: static/media/Reguera-2018-The-impact-of-different-agroecologi.pdf
 url_poster: ""
 url_project: ""
 url_slides: ""
