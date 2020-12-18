@@ -1,77 +1,66 @@
 ---
-# Display name
-title: Nelson Bighetti
-
-# Is this the primary user of the site?
-superuser: true
-
-# Role/position/tagline
-role: Professor of Artificial Intelligence
-
-# Organizations/Affiliations to show in About widget
-organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
-
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
-
-# Interests to show in About widget
-interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-
-# Education to show in About widget
+bio: My research explores how intracellular location and protein domain structure affects the evolution of antifungal resistance.
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
-
-# Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
+  - course: PhD in Ecology and Evolution
+    institution: Stony Brook University
+    year: ~2023
+  - course: BSc in Biology
+    institution: Universidad Autonoma de Madrid
+    year: 2016
+email: "alejandro.gilgomez@stonybrook.edu"
+highlight_name: false
+interests:
+- Genome Evolution
+- Molecular Evolution
+- Phylogenetics
+- Network Biology
+- Antibiotic Biosynthesis and Resistance
+organizations:
+- name: Department of Ecology and Evolution at Stony Brook University
+  url: https://www.stonybrook.edu/ecoevo/
+role: Ph.D. Student
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'
+  link: mailto:alejandro.gilgomez@stonybrook.edu
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://twitter.com/Alex_glgz
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=3X2kmYAAAAAJ&hl=es&authuser=1
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/Alexggo
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
-
-# Link to a PDF of your resume/CV.
-# To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
-# and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: media/resume.pdf
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
-
-# Highlight the author in author lists? (true/false)
-highlight_name: false
+  link: https://www.linkedin.com/in/alejandro-gil-g%C3%B3mez-56217ba8/
+- icon: youtube
+  icon_pack: fab
+  link: https://www.youtube.com/channel/UClw4GMw9f673g-eh5LMDU0g
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Alejandro_Gil-Gomez
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0003-3084-7483
+- icon: osf
+  icon_pack: ai
+  link: https://osf.io/v62r3/
+superuser: true
+title: Alejandro Gil Gomez
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hello, my name is Alejandro Gil-Gomez and I am a Ph.D. student in the Department of Ecology and Evolution at Stony Brook University, where I work as a member of the Rest Lab.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+My research focuses on several aspects related to molecular, genome and network evolution. In particular, I am researching the patterns and mechanisms of gene clustering evolution in antibiotic producing bacteria.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+I am evaluating the Co-Regulatory and the Selfish Operon Models and their relation to the evolution of biosynthetic gene clusters (BGCs). I work also on phylogenetic reconciliation of BGCs as a strategy to estimate the origin of different classes of natural antibiotics.
+
+Furthermore, my work focuses on how selection caused by antibiotics affects target and network evolution.
+
+I also work on a metagenomics project with the aim of detecting the natural reservoir of the pathogenic fungi Candida auris.

@@ -27,10 +27,18 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Deep Learning
-    tag: Deep Learning
-  - name: Other
-    tag: Demo
+  - name: Genome Evolution
+    tag: Genome Evolution
+  - name: Network Evolution
+    tag: Network Evolution
+  - name: Molecular Evolution
+    tag: Molecular Evolution
+  - name: Antibiotic Resistance
+    tag: Antibiotic Resistance
+  - name: Antibiotic Biosynthesis
+    tag: Antibiotic Biosynthesis
+  - name: Metagenomics
+    tag: Metagenomics
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
