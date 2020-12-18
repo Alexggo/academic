@@ -20,7 +20,9 @@ publishDate: "2018-03-14T00:00:00Z"
 slides: 
 summary: 
 tags:
-- Source Themes
+- Plant Biology
+- Phenotypic Plasticity
+- Gene-environment Interactions
 title: The impact of different agroecological conditions on the nutritional composition of quinoa seeds
 url_code: https://github.com/Alexggo/quinoa_2018
 url_dataset: https://github.com/Alexggo/quinoa_2018/tree/master/data
