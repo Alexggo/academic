@@ -7,7 +7,7 @@ widget: portfolio
 headless: true
 
 # Order that this section appears on the page.
-weight: 20
+weight: 30
 
 title: Projects
 subtitle: ''
@@ -27,18 +27,6 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Genome Evolution
-    tag: Genome Evolution
-  - name: Network Evolution
-    tag: Network Evolution
-  - name: Molecular Evolution
-    tag: Molecular Evolution
-  - name: Antibiotic Resistance
-    tag: Antibiotic Resistance
-  - name: Antibiotic Biosynthesis
-    tag: Antibiotic Biosynthesis
-  - name: Metagenomics
-    tag: Metagenomics
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
