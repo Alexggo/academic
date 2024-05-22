@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Proteomics | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/tags/proteomics/</link>
+      <atom:link href="http://localhost:1313/tags/proteomics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Proteomics</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
+      <title>Proteomics</title>
+      <link>http://localhost:1313/tags/proteomics/</link>
+    </image>
+    
+    <item>
+      <title>Proteomics</title>
+      <link>http://localhost:1313/project/proteomics/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/proteomics/</guid>
+      <description>&lt;p&gt;In our study, we investigated protein expression across various life cycle stages of a marine protist. Our goal was to identify proteins associated with novel organelles observed under the microscope, despite limited genetic and biochemical information.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
